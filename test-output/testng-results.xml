@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="10" passed="10" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-08-22T01:34:53 IST" name="Suite" finished-at="2024-08-22T01:35:57 IST" duration-ms="64273">
+    <groups>
+      <group name="sanity">
+        <method signature="dispensary_testcase.verifyTitleOfTheHomePage()[pri:1, instance:testcases.dispensary_testcase@12cd9150]" name="verifyTitleOfTheHomePage" class="testcases.dispensary_testcase"/>
+        <method signature="dispensary_testcase.verifyDispensaryModuleIsPresentOrNot()[pri:2, instance:testcases.dispensary_testcase@12cd9150]" name="verifyDispensaryModuleIsPresentOrNot" class="testcases.dispensary_testcase"/>
+        <method signature="dispensary_testcase.verifyAllSubModulesArePresent()[pri:3, instance:testcases.dispensary_testcase@12cd9150]" name="verifyAllSubModulesArePresent" class="testcases.dispensary_testcase"/>
+        <method signature="dispensary_testcase.scrollToButtomAndVerifyTheFields()[pri:4, instance:testcases.dispensary_testcase@12cd9150]" name="scrollToButtomAndVerifyTheFields" class="testcases.dispensary_testcase"/>
+        <method signature="dispensary_testcase.performTheKeyboardOperationToOpenThePopup()[pri:5, instance:testcases.dispensary_testcase@12cd9150]" name="performTheKeyboardOperationToOpenThePopup" class="testcases.dispensary_testcase"/>
+        <method signature="dispensary_testcase.validateTheErrorMessageInFirstnameTextfield()[pri:6, instance:testcases.dispensary_testcase@12cd9150]" name="validateTheErrorMessageInFirstnameTextfield" class="testcases.dispensary_testcase"/>
+        <method signature="dispensary_testcase.fillAllTheTextfields()[pri:7, instance:testcases.dispensary_testcase@12cd9150]" name="fillAllTheTextfields" class="testcases.dispensary_testcase"/>
+        <method signature="dispensary_testcase.validateTheConfirmMessage()[pri:8, instance:testcases.dispensary_testcase@12cd9150]" name="validateTheConfirmMessage" class="testcases.dispensary_testcase"/>
+        <method signature="dispensary_testcase.selectFilterverifyFilterIsSelectedOrNot()[pri:9, instance:testcases.dispensary_testcase@12cd9150]" name="selectFilterverifyFilterIsSelectedOrNot" class="testcases.dispensary_testcase"/>
+        <method signature="dispensary_testcase.validateTheButtonIsPresentAndNavigateToThisPage()[pri:10, instance:testcases.dispensary_testcase@12cd9150]" name="validateTheButtonIsPresentAndNavigateToThisPage" class="testcases.dispensary_testcase"/>
+      </group> <!-- sanity -->
+    </groups>
+    <test started-at="2024-08-22T01:34:53 IST" name="Test" finished-at="2024-08-22T01:35:57 IST" duration-ms="64273">
+      <class name="testcases.dispensary_testcase">
+        <test-method is-config="true" signature="initBrowser(java.lang.String,java.lang.String)[pri:0, instance:testcases.dispensary_testcase@12cd9150]" started-at="2024-08-22T01:34:53 IST" name="initBrowser" finished-at="2024-08-22T01:34:57 IST" duration-ms="3939" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[dev]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initBrowser -->
+        <test-method signature="verifyTitleOfTheHomePage()[pri:1, instance:testcases.dispensary_testcase@12cd9150]" started-at="2024-08-22T01:34:57 IST" name="verifyTitleOfTheHomePage" description="Verify the title and url of  the current page" finished-at="2024-08-22T01:35:02 IST" duration-ms="4952" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyTitleOfTheHomePage -->
+        <test-method signature="verifyDispensaryModuleIsPresentOrNot()[pri:2, instance:testcases.dispensary_testcase@12cd9150]" started-at="2024-08-22T01:35:06 IST" name="verifyDispensaryModuleIsPresentOrNot" description="verify the Dispensary module is present or not?" finished-at="2024-08-22T01:35:06 IST" duration-ms="71" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyDispensaryModuleIsPresentOrNot -->
+        <test-method signature="verifyAllSubModulesArePresent()[pri:3, instance:testcases.dispensary_testcase@12cd9150]" started-at="2024-08-22T01:35:09 IST" name="verifyAllSubModulesArePresent" description="verify all sub-modules are displayed correctly after clicking on the expand icon of Dispensary Module" finished-at="2024-08-22T01:35:10 IST" duration-ms="842" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyAllSubModulesArePresent -->
+        <test-method signature="scrollToButtomAndVerifyTheFields()[pri:4, instance:testcases.dispensary_testcase@12cd9150]" started-at="2024-08-22T01:35:13 IST" name="scrollToButtomAndVerifyTheFields" description="scroll to the bottom of the Sale page and verify that Print Invoice button,Discard button,Invoice History and Credit Limitis and Balance text are peresent or not?" finished-at="2024-08-22T01:35:19 IST" duration-ms="6411" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- scrollToButtomAndVerifyTheFields -->
+        <test-method signature="performTheKeyboardOperationToOpenThePopup()[pri:5, instance:testcases.dispensary_testcase@12cd9150]" started-at="2024-08-22T01:35:24 IST" name="performTheKeyboardOperationToOpenThePopup" description="Perform the keyboard operation to open the Add New Patient popup Page  and verify that the popup is displayed or not" finished-at="2024-08-22T01:35:24 IST" duration-ms="283" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- performTheKeyboardOperationToOpenThePopup -->
+        <test-method signature="validateTheErrorMessageInFirstnameTextfield()[pri:6, instance:testcases.dispensary_testcase@12cd9150]" started-at="2024-08-22T01:35:27 IST" name="validateTheErrorMessageInFirstnameTextfield" description="Validate the error message in Add New Patient form&#039;s firstname textfield after clicking on Ok Button without filling any information in the form" finished-at="2024-08-22T01:35:32 IST" duration-ms="5358" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateTheErrorMessageInFirstnameTextfield -->
+        <test-method signature="fillAllTheTextfields()[pri:7, instance:testcases.dispensary_testcase@12cd9150]" started-at="2024-08-22T01:35:39 IST" name="fillAllTheTextfields" description="Fill all the text fields which are present inside the Add New Patient form and Validate entered values" finished-at="2024-08-22T01:35:40 IST" duration-ms="1156" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fillAllTheTextfields -->
+        <test-method signature="validateTheConfirmMessage()[pri:8, instance:testcases.dispensary_testcase@12cd9150]" started-at="2024-08-22T01:35:43 IST" name="validateTheConfirmMessage" description="On the New Consumption Entry&#039;s page, validate the confirm! Message that is Are you sure you want to Proceed ?" finished-at="2024-08-22T01:35:44 IST" duration-ms="518" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateTheConfirmMessage -->
+        <test-method signature="selectFilterverifyFilterIsSelectedOrNot()[pri:9, instance:testcases.dispensary_testcase@12cd9150]" started-at="2024-08-22T01:35:47 IST" name="selectFilterverifyFilterIsSelectedOrNot" description="on the Stock page,select Main store from Filter by store dropdown and verify that Main store is selected and stock value are filtered by the selected store name " finished-at="2024-08-22T01:35:50 IST" duration-ms="3477" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectFilterverifyFilterIsSelectedOrNot -->
+        <test-method signature="validateTheButtonIsPresentAndNavigateToThisPage()[pri:10, instance:testcases.dispensary_testcase@12cd9150]" started-at="2024-08-22T01:35:53 IST" name="validateTheButtonIsPresentAndNavigateToThisPage" description="on the stock page , please validate clicking Create Requisition button navigate to Add Requisitions page and validate the page Name" finished-at="2024-08-22T01:35:54 IST" duration-ms="394" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateTheButtonIsPresentAndNavigateToThisPage -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testcases.dispensary_testcase@12cd9150]" started-at="2024-08-22T01:35:57 IST" name="tearDown" finished-at="2024-08-22T01:35:57 IST" duration-ms="242" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testcases.dispensary_testcase -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

@@ -1,0 +1,12 @@
+{
+	"dev":{
+		"url":"https://healthapp.yaksha.com/Account/Logout",
+		"pageloadtimeout":"90",
+		"implicitwaittime":"30"
+	},
+	"prod":{
+		"url":"https://healthapp.yaksha.com/",
+		"pageloadtimeout":"90",
+		"implicitwaittime":"30"
+	}
+}

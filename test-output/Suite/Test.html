@@ -1,0 +1,130 @@
+<html>
+<head>
+<title>TestNG:  Test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>10/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Thu Aug 22 01:34:53 IST 2024</td>
+</tr>
+<tr><td>Total time:</td><td>64 seconds (64273 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td>sanity </td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td><b>Attribute(s)</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='testcases.dispensary_testcase.verifyTitleOfTheHomePage()'><b>verifyTitleOfTheHomePage</b><br>Test class: testcases.dispensary_testcase<br>Test method: Verify the title and url of  the current page</td>
+<td></td>
+<td>4</td>
+<td>testcases.dispensary_testcase@12cd9150</td></tr>
+<tr>
+<td title='testcases.dispensary_testcase.validateTheButtonIsPresentAndNavigateToThisPage()'><b>validateTheButtonIsPresentAndNavigateToThisPage</b><br>Test class: testcases.dispensary_testcase<br>Test method: on the stock page , please validate clicking Create Requisition button navigate to Add Requisitions page and validate the page Name</td>
+<td></td>
+<td>0</td>
+<td>testcases.dispensary_testcase@12cd9150</td></tr>
+<tr>
+<td title='testcases.dispensary_testcase.verifyAllSubModulesArePresent()'><b>verifyAllSubModulesArePresent</b><br>Test class: testcases.dispensary_testcase<br>Test method: verify all sub-modules are displayed correctly after clicking on the expand icon of Dispensary Module</td>
+<td></td>
+<td>0</td>
+<td>testcases.dispensary_testcase@12cd9150</td></tr>
+<tr>
+<td title='testcases.dispensary_testcase.performTheKeyboardOperationToOpenThePopup()'><b>performTheKeyboardOperationToOpenThePopup</b><br>Test class: testcases.dispensary_testcase<br>Test method: Perform the keyboard operation to open the Add New Patient popup Page  and verify that the popup is displayed or not</td>
+<td></td>
+<td>0</td>
+<td>testcases.dispensary_testcase@12cd9150</td></tr>
+<tr>
+<td title='testcases.dispensary_testcase.validateTheErrorMessageInFirstnameTextfield()'><b>validateTheErrorMessageInFirstnameTextfield</b><br>Test class: testcases.dispensary_testcase<br>Test method: Validate the error message in Add New Patient form's firstname textfield after clicking on Ok Button without filling any information in the form</td>
+<td></td>
+<td>5</td>
+<td>testcases.dispensary_testcase@12cd9150</td></tr>
+<tr>
+<td title='testcases.dispensary_testcase.fillAllTheTextfields()'><b>fillAllTheTextfields</b><br>Test class: testcases.dispensary_testcase<br>Test method: Fill all the text fields which are present inside the Add New Patient form and Validate entered values</td>
+<td></td>
+<td>1</td>
+<td>testcases.dispensary_testcase@12cd9150</td></tr>
+<tr>
+<td title='testcases.dispensary_testcase.validateTheConfirmMessage()'><b>validateTheConfirmMessage</b><br>Test class: testcases.dispensary_testcase<br>Test method: On the New Consumption Entry's page, validate the confirm! Message that is Are you sure you want to Proceed ?</td>
+<td></td>
+<td>0</td>
+<td>testcases.dispensary_testcase@12cd9150</td></tr>
+<tr>
+<td title='testcases.dispensary_testcase.verifyDispensaryModuleIsPresentOrNot()'><b>verifyDispensaryModuleIsPresentOrNot</b><br>Test class: testcases.dispensary_testcase<br>Test method: verify the Dispensary module is present or not?</td>
+<td></td>
+<td>0</td>
+<td>testcases.dispensary_testcase@12cd9150</td></tr>
+<tr>
+<td title='testcases.dispensary_testcase.selectFilterverifyFilterIsSelectedOrNot()'><b>selectFilterverifyFilterIsSelectedOrNot</b><br>Test class: testcases.dispensary_testcase<br>Test method: on the Stock page,select Main store from Filter by store dropdown and verify that Main store is selected and stock value are filtered by the selected store name </td>
+<td></td>
+<td>3</td>
+<td>testcases.dispensary_testcase@12cd9150</td></tr>
+<tr>
+<td title='testcases.dispensary_testcase.scrollToButtomAndVerifyTheFields()'><b>scrollToButtomAndVerifyTheFields</b><br>Test class: testcases.dispensary_testcase<br>Test method: scroll to the bottom of the Sale page and verify that Print Invoice button,Discard button,Invoice History and Credit Limitis and Balance text are peresent or not?</td>
+<td></td>
+<td>6</td>
+<td>testcases.dispensary_testcase@12cd9150</td></tr>
+</table><p>
+</body>
+</html>
